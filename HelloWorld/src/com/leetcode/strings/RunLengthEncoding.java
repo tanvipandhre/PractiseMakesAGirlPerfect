@@ -4,7 +4,7 @@ public class RunLengthEncoding {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String s="aaabbc";
+		String s="aaaabbc";
 		String out = "";
 		int count =0;
 		Character x = s.charAt(0);
