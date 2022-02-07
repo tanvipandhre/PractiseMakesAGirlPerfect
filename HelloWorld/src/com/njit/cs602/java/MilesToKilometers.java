@@ -17,7 +17,7 @@ public class MilesToKilometers {
 		double noOfmile = sc.nextDouble() ;
 		double kms = noOfmile * MILES_PER_KILOMETER ;
 		System.out.println("Miles in kms"+ kms);
-
+		
 	}
 
 }
