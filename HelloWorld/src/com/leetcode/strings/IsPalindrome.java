@@ -4,7 +4,7 @@ public class IsPalindrome {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String s = "ammaa";
+		String s = "mama";
 		s= s.toLowerCase();
 		boolean isPalindrome = true;
 		char[] arr = s.toCharArray();
@@ -14,13 +14,10 @@ public class IsPalindrome {
 			if(Character.isLetterOrDigit(arr[start]) && Character.isLetterOrDigit(arr[end])) {
 				if(arr[start]!=arr[end]) {
 					isPalindrome = false;
+					break;
 				}
 				start++;
 				end--;
-			}else if(Character.isLetterOrDigit(arr[start])) {
-				end--;
-			}else {
-				start++;
 			}
 		}
 		System.out.println(isPalindrome);
