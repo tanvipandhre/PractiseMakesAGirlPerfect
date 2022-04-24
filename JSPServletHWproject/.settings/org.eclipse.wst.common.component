@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="HelloWorld">
+    <wb-module deploy-name="JSPServletHWproject">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/com/njit/cs602/java/week"/>
-        <property name="context-root" value="HelloWorld"/>
-        <property name="java-output-path" value="/HelloWorld/build/classes"/>
+        <property name="context-root" value="JSPServletHWproject"/>
+        <property name="java-output-path" value="/JSPServletHWproject/build/classes"/>
     </wb-module>
 </project-modules>
