@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="ATMHWProject" path="/ATMHWProject" reloadable="true" source="org.eclipse.jst.jee.server:ATMHWProject"/><Context docBase="CS631_Employee_Project_Mgmt_System" path="/CS631_Employee_Project_Mgmt_System" reloadable="true" source="org.eclipse.jst.jee.server:CS631_Employee_Project_Mgmt_System"/><Context docBase="CS603_week14" path="/CS603_week14" reloadable="true" source="org.eclipse.jst.jee.server:CS603_week14"/><Context docBase="HelloWorld" path="/HelloWorld" reloadable="true" source="org.eclipse.jst.jee.server:HelloWorld"/></Host>
+      <Context docBase="ATMHWProject" path="/ATMHWProject" reloadable="true" source="org.eclipse.jst.jee.server:ATMHWProject"/><Context docBase="CS631_Employee_Project_Mgmt_System" path="/CS631_Employee_Project_Mgmt_System" reloadable="true" source="org.eclipse.jst.jee.server:CS631_Employee_Project_Mgmt_System"/><Context docBase="CS603_week14" path="/CS603_week14" reloadable="true" source="org.eclipse.jst.jee.server:CS603_week14"/><Context docBase="HelloWorld" path="/HelloWorld" reloadable="true" source="org.eclipse.jst.jee.server:HelloWorld"/><Context docBase="Placement_DSA" path="/Placement_DSA" reloadable="true" source="org.eclipse.jst.jee.server:Placement_DSA"/></Host>
     </Engine>
   </Service>
 </Server>
